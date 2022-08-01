@@ -1,0 +1,245 @@
+.colorFondoNavb {
+  background: rgba(32, 1, 71, 0.548);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.colorFondoNavbSeries {
+  background: rgba(32, 1, 71, 0.548);
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.colorFondoNavbPeliculas{
+  background: rgba(8, 1, 15, 0.548);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.colorBotton {
+  background: mediumorchid;
+}
+.colorMain {
+  background: rgb(62 17 96);
+  background-color: rgb(3 3 40);
+}
+.videoIntro {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+.link{
+  text-decoration: none;
+}
+.colordeAenpag{
+  color: rgb(2, 0, 2);
+}
+.imgCover {
+  object-fit: cover;
+  height: 100px;
+}
+.slider {
+  display: flex;
+
+  max-width: 90%;
+  height: 450px;
+  width: 100%;
+
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  background-color: black;
+  color: rgba(0, 0, 0, 0.137);
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+}
+#prueba::-webkit-scrollbar {
+  background: scroll rgb(62 17 96);
+  background-color: rgb(3 3 40);
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 10px;
+}
+.texto {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  z-index: 1;
+}
+.texto a {
+  background-color: rgba(132, 55, 204, 0.329);
+  text-decoration: none;
+  color: mediumorchid;
+}
+
+#CarruselCategorias {
+  width: 90%;
+  background: rgb(62 17 96);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  left: 5%;
+}
+
+.contenedorPadreCarrusel {
+  border: 2px solid salmon;
+  background: rgba(157, 47, 241, 0.288);
+  padding: 20px;
+}
+.imgCarrusel {
+  box-shadow: 0 0 5px black;
+  border-radius: 2px;
+  border-color: beige;
+}
+.imgCarrusel:hover {
+  position: relative;
+  top: -3px;
+  right: +3px;
+  filter: grayscale(0%);
+}
+
+.logoCarrusel {
+  height: 100%;
+  padding: 10px;
+}
+.logoCarrusel img {
+  background: rgba(157, 47, 241, 0.288);
+}
+/* clases de yessi */
+.asuscripcion {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+}
+.link-palabra {
+  color: rgb(198, 160, 234);
+}
+.boton {
+  background: blueviolet;
+}
+
+.boton:hover {
+  background: rgb(36, 4, 67);
+  border: rgb(36, 4, 67);
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(198, 160, 234);
+}
+.borderadio {
+  border-radius: 50%;
+}
+
+.link:hover {
+  color: aliceblue;
+}
+.meses {
+  background-color: rgba(136, 64, 198, 0.326);
+}
+.caja {
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgba(129, 86, 167, 0.326);
+  width: 100%;
+
+  border: 1px solid rgb(243, 242, 242);
+  color: aliceblue;
+}
+.imgSerie {
+  background-image: url(img/serie/Euphoria-banner.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 500px;
+}
+#contenedorPadre {
+  width: 100%;
+  height: 600px;
+}
+/* clases serie */
+
+.bodySerie {
+  background-image: url(Euphoria-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+section#header {
+  width: 100%;
+  height: 500px;
+}
+
+hr {
+  color: white;
+}
+.centrado {
+  text-align: justify;
+}
+.card2 {
+  max-width: 200px;
+  max-height: 200px;
+  padding: 0;
+}
+.imgTemporada1 {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.imgTemporada1:hover {
+  position: relative;
+  top: -3px;
+  right: +3px;
+  filter: grayscale(0%);
+}
+.colorCards{
+    background-color: rgb(3 3 40);
+    color: white;
+}
+
+/* clases de peliculas */
+.imgPelicula{
+  object-fit: cover;
+  height: 500px;
+}
+.imglogoBatman{
+  display: flex;
+  position: absolute;
+  bottom: 160px;
+
+}
+.plogoBatman{
+  display: flex;
+  position: absolute;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  letter-spacing: 5.5px;
+  justify-content: space-around;
+  align-items: flex-start;
+  bottom: 120px;
+}
+@media all and (max-width: 767px) {
+  .colorFondoNavb {
+    position: relative;
+    background: rgb(62 17 96);
+    background-color: rgb(3 3 40);
+  }
+  .videoIntro {
+    object-fit: fill;
+  }
+  .videoGeneral {
+    object-fit: cover;
+  }
+  .logoCarrusel {
+    height: min-content 10px;
+  }
+  .imglogomax {
+    height: 55px;
+  }
+}

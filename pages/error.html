@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Leiva Daiana, Juarez Yessica, Gregorio LLobeta"
+    />
+    <meta name="description" content="Contenidos sobre la pagina oficial hbo" />
+    <meta name="keywords" content="peliculas, series y otros contenidos" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../img/logo2.jpg" class="rounded-circle" />
+    <title>HBOMAX</title>
+  </head>
+  <body>
+    <header>
+        <section class="colorFondoNavb">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+              <a href="../index.html" class="navbar-brand"
+                ><img
+                  src="../img/logo2.jpg"
+                  alt="logo2"
+                  width="60px"
+                  class="rounded-circle"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navBarHBO"
+                aria-controls="navBarHBO"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navBarHBO">
+                <ul class="navbar-nav ms-lg-auto me-auto me-lg-0 mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active rounded-pill border-light p-3 m-1"
+                      aria-current="page"
+                      data-bs-toggle="modal"
+                      data-bs-target="#loginmodal"
+                      href="../index.html"
+                      >Ingresar</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link rounded-pill border-light p-3 m-1 colorBotton"
+                      href="suscripcion.html"
+                      >Suscribite</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </section>
+      </header>
+    <main class="colorMain container-fluid">
+        <section><img src="../img/404.png" alt="error 404" width="100%" /></section>
+
+        <!-- MODAL LOGIN -->
+    <div
+    class="modal fade"
+    id="loginmodal"
+    tabindex="-1"
+    aria-labelledby="loginmodalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark">
+        <div class="my-2 text-center">
+          <h1 class="text-light" id="loginmodalLabel">Iniciar seccion</h1>
+
+          <h5 class="text-secondary">¿Tienes una cuenta de HBO Max?</h5>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="Email" class="form-label text-light"
+                >E-mail</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="Email"
+                placeholder="juanperez@gmail.com"
+                minlength="5"
+                maxlength="50"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="inputPassword" class="form-label text-light"
+                >Contraseña</label
+              >
+
+              <input
+                type="password"
+                class="form-control"
+                id="inputPassword"
+                placeholder="Contraseña"
+                minlength="8"
+                maxlength="15"
+                required
+              />
+            </div>
+            <div class="text-center my-3">
+              <button
+                type="submit"
+                class="btn btn-secondary text-dark"
+                width="20px"
+                height="50px"
+              >
+                <a href="error.html" class="asuscripcion"
+                  >Iniciar Seccion</a
+                >
+              </button>
+              ><br />
+              <a
+                href="error.html"
+                class="text-decoration-none text-light my-4"
+                >¿Olvidaste tu Contraseña?</a
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    </main>
+    <footer class="colorMain py-4">
+        <section class="container">
+          <article class="row text-secondary">
+            <aside class="col-12 col-md-4 text-center">
+              <img
+                src="img/logo2.jpg"
+                alt="logo2"
+                width="90px"
+                class="rounded-circle"
+              />
+            </aside>
+            <aside class="col-12 col-md-4 text-center">
+              <h5>Seguinos en nuestras redes</h5>
+              <div class="text-center">
+                <a href="#" class="text-danger"
+                  ><i class="bi bi-youtube fs-3 p-2"></i
+                ></a>
+                <a href="#" class="text-primary"
+                  ><i class="bi bi-facebook fs-3 p-2"></i
+                ></a>
+                <a href="#" class="text-primary">
+                  <i class="bi bi-twitter fs-3 p-2"></i
+                ></a>
+                <a href="#" class="text-danger">
+                  <i class="bi bi-instagram fs-3 p-2"></i
+                ></a>
+              </div>
+            </aside>
+            <aside class="col-12 col-md-4 text-center">
+              <h5>Link</h5>
+              <div>
+                <a href="#" class="link text-light">¿Quienes somos? </a><br />
+                <a href="./pages/contacto.html" class="link text-light">Consultas</a> <br />
+                <a href="#" class="link text-light">Privacidad</a> <br />
+              </div>
+            </aside>
+          </article>
+        </section>
+      </footer>
+      <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
