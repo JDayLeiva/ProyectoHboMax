@@ -21,26 +21,21 @@
   </head>
   <body>
     <header>
-      <section class="colorFondoNavb">
+      <section class="colorMainNavar">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <section class="container-fluid row">
-              <aside class="col-3">
-               <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
-              </form> 
-              </aside>
-              <aside class="col-6 d-flex justify-content-center">
-                <a href="../index.html">
+          <section class="container">  
+                <a class="navbar-brand" href="../index.html">
                   <img
                     src="../img/logo2.jpg"
                     alt="logo2"
                     width="60px"
                     class="rounded-circle"
                 /></a>
-              </aside>
-              <aside class="col-3 d-flex justify-content-end">
-                <button
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+               <button
               class="btn btn-outline-light m-1"
               type="submit"
               data-bs-toggle="modal"
@@ -48,7 +43,12 @@
             >
               Ingresar
             </button>
-              </aside>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
+            </form> 
+                
+            </div>
           </section>
         </nav> 
       </section>  

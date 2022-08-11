@@ -19,6 +19,13 @@
 .colorBotton {
   background: mediumorchid;
 }
+.colorMainNavar{
+  background: rgb(62 17 96);
+  background-color: rgba(3, 3, 40, 0.52);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
 .colorMain {
   background: rgb(62 17 96);
   background-color: rgb(3 3 40);
@@ -225,10 +232,10 @@ hr {
   bottom: 120px;
 }
 @media all and (max-width: 767px) {
-  .colorFondoNavb {
-    position: relative;
+  .colorMainNavar {
     background: rgb(62 17 96);
     background-color: rgb(3 3 40);
+    position: relative;
   }
   .videoIntro {
     object-fit: fill;
@@ -242,4 +249,37 @@ hr {
   .imglogomax {
     height: 55px;
   }
+  .imglogoBatman{
+    top: 400px;
+  }
+  .plogoBatman{
+    top: 450px;
+  }
 }
+@media all and (min-width: 768px) and (max-width: 992px){
+  .colorMainNavar {
+    background: rgb(62 17 96);
+    background-color: rgb(3 3 40);
+    position: relative;
+  }
+  .imglogoBatman{
+    top: 380px;
+  }
+  .plogoBatman{
+    top: 460px;
+  }
+}
+@media all and (min-width: 993px) and (max-width: 1282px){
+  .colorMainNavar {
+    background: rgb(62 17 96);
+    background-color: rgb(3 3 40);
+    position: relative;
+  }
+  .imglogoBatman{
+    top: 330px;
+  }
+  .plogoBatman{
+    top: 450px;
+  }
+}
+
