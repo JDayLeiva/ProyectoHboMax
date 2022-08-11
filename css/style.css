@@ -16,6 +16,9 @@
   width: 100%;
   z-index: 1;
 }
+.colorMainBotton{
+  background: rgba(31, 8, 89, 0.895);
+}
 .colorBotton {
   background: mediumorchid;
 }
